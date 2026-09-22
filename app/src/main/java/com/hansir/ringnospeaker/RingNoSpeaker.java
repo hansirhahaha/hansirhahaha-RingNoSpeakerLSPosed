@@ -6,6 +6,7 @@ import android.os.Looper;
 import java.lang.reflect.*;
 import java.util.*;
 import de.robv.android.xposed.*;
+import de.robv.android.xposed.callbacks.XC_LoadPackage;
 
 public class RingNoSpeaker implements IXposedHookLoadPackage {
     private static final String TAG = "RingNoSpeaker";
